@@ -1,6 +1,7 @@
 let monto = parseInt(prompt('Ingresar el monto total'));
 let cuotas = parseInt(prompt('Ingrese la cantida de cuotas en la que lo desea realizar'));
 
+//
 function calcular(){
     while((monto || cuotas) != 'FIN'){
         if(monto < cuotas){
